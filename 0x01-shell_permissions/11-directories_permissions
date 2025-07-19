@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 111 hello
+find . -maxdepth 1 -type d -exec chmod ugo+x {} \; && echo "Permissions updated for subdirectories. Regular files were not modified."
