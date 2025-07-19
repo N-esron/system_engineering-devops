@@ -1,18 +1,2 @@
 #!/bin/bash
-
-# This script prints the absolute path of the current working directory.
-
-# The 'pwd' command (Print Working Directory) is used to display
-# the name of the current working directory.
-# By default, 'pwd' prints the absolute path.
-# The '-P' option (physical) can be used to avoid all symlinks,
-# printing the physical directory. However, for most cases,
-# the default behavior is sufficient and often preferred as it shows
-# the logical path you're currently in.
-
-echo "The current working directory is:"
 pwd
-
-# You can also capture the output of pwd into a variable if needed:
-# current_dir=$(pwd)
-# echo "Captured directory: $current_dir"
