@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "--- Environment Variables ---\n%s\n\n--- Local Variables (and Environment Variables) ---\n%s\n\n--- Shell Functions ---\n%s\n\nScript complete.\n" "$(env)" "$(set)" "$(declare -f)"
