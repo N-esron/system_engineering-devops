@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "Displaying the content of /etc/passwd:\n%s\n\nDisplaying the content of /etc/hosts:\n%s\n" "$(cat /etc/passwd)" "$(cat /etc/hosts)"
