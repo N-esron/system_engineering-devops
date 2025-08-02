@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script uses `pgrep` to find the PIDs and names of all processes containing "bash".
+
+while true; do echo "To infinity and beyond"; sleep 2; done
