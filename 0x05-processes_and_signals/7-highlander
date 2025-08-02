@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# When a SIGTERM signal is received, the `handle_term` function will be executed.
+
+trap 'echo "I am invincible!!!"' SIGTERM; while true; do echo "To infinity and beyond"; sleep 2; done
